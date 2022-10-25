@@ -1,7 +1,7 @@
-timezone:    Europe/Berlin
+timezone:    United States/New York
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-# baseurl:     "/github-slideshow"
+# baseurl:  "/labeled-for-home-3298.myshopify.com"   "/github-slideshow"
 # The allowed values are 'rouge', 'pygments' or null.
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
@@ -17,8 +17,8 @@ plugins:
   - jemoji
 
 ## personalize your slide show
-title:       github-slideshow
-author:      GitHubTeacher
+title:      "site-slideshow" github-slideshow
+author:     "owner" GitHubTeacher
 description: A fun activity for learning Git and GitHub.
 
 sass:
@@ -28,7 +28,7 @@ sass:
 solarized:
   theme:     dark
 
-slideNumber:
+slideNumber: # "don't show slide numbers"
   # Slide number formatting can be configured using these variables:
   #  "h.v":  horizontal . vertical slide number (default)
   #  "h/v":  horizontal / vertical slide number
