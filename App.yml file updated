@@ -1,45 +1,30 @@
 timezone:    United States/New York
 future:      false
-# Set baseurl to the base path of the site eg "/mytalk"
-# baseurl:  "/labeled-for-home-3298.myshopify.com"   "/github-slideshow"
-# The allowed values are 'rouge', 'pygments' or null.
-highlighter: rouge
-# markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
+baseurl:  "/labeled-for-home-3298.myshopify.com"
+highlighter: 
 markdown:    kramdown
 lsi:         false
 permalink:   "/:title"
 
-kramdown:
-  ## for german: "sbquo,lsquo,bdquo,ldquo"
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-
 plugins:
   - jemoji
 
-## personalize your slide show
-title:      "site-slideshow" github-slideshow
-author:     "owner" GitHubTeacher
-description: A fun activity for learning Git and GitHub.
+
+title:      "site-slideshow" 
+author:     "owner" 
+description: "a sideshow for product images"
 
 sass:
   style:     :compressed
 
-## solarized variant (dark/light)
+
 solarized:
-  theme:     dark
+  theme:     "dark"
 
-slideNumber: # "don't show slide numbers"
-  # Slide number formatting can be configured using these variables:
-  #  "h.v":  horizontal . vertical slide number (default)
-  #  "h/v":  horizontal / vertical slide number
-  #    "c":  flattened slide number
-  #  "c/t":  flattened slide number / total slides
-  # "none":  dont't show slide numbers
-  format:    "c/t"
+slideNumber:  "don't show slide numbers"
 
-## Reveal.initialize
-## At the end of your page Jekyll initializes reveal by running the following code. Note that all config values are optional and will default as specified below.
-## Note that the new default vertical centering option will break compatibility with slides that were using transitions with backgrounds ("cube" and "page"). To restore the previous behavior, set "center" to "false".
+Reveal.initialize
+ 
 reveal:
   ## Display controls in the bottom right corner
   controls: false
